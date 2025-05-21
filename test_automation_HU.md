@@ -43,3 +43,66 @@
 
 
 <img src="https://promanconsulting.hu/wp-content/uploads/2022/03/agilis-modszertanok-optimized.jpg" width="550" height="400">
+
+## Reporting, Bugs
+<img src="https://moolya.com/blog/wp-content/uploads/2023/05/Bug-Report.png" alt="image" width="300" height="220">
+
+#### ✅ Milyen lépéseket követnél egy hiba megtalálásakor?
+### Elsőnek is rögzíteném a hibát a hibajelentésben, majd megpróbálom reprodukálni és dokumentálni a lépéseit. Összehasonlítom a kívánt eredményt a hiba eredményével és meghatározom annak javításának fontosságát.
+
+#### ✅ Beszélj a gyakori tesztjelentésekről és részleteikről!
+### A tesztjelentések a tesztelési tevékenységek állapotáról és eredményeiről tájékoztatnak. Két részre oszthatjuk:
+- ### Tesztelőrehaladási jelentés
+  - Ez rendszeresen készül a projekt során, bemutatva az aktuális státuszt, a haladást gátló tényezőket és a tesztobjektum minőségét.
+- ### Összefoglaló tesztjelentés
+  - A tesztelési fázis végén összegzi a teljes folyamatot, az eltéréseket, a kockázatokat és a termékminőséget.
+
+
+#### ✅ Mit tartalmaz egy hibajelentés?
+- ### Egyedi azonosító vagy cím
+- ### Hiba rövid leírása
+- ### Hiba dátuma
+- ### Hiba megtalálójának a neve
+- ### futtatási környezet
+- ### Reprodukálásának részletes leírása
+- ### Elvárt eredmény és a hiba eredménye
+- ### Hiba fontossága
+- ### Hiba állapota (Lezárt vagy Aktuális)
+
+#### ✅ Hogyan rangsorolnál egy hibát?
+- ### Súlyosság szerint: Jelzi, hogy a hiba milyen súlyossággal befolyásolja a szoftver működését.
+- ### Prioritás szerint: Jelzi, hogy a hibát milyen sűrgősen kell kijavítani.
+
+
+## Test Automation, Selenium
+<img src="https://media.licdn.com/dms/image/C4D12AQE3GOyVsZazOw/article-cover_image-shrink_600_2000/0/1583830696602?e=2147483647&v=beta&t=bYHbKyhMoWsMgtEug6eSf3m0db5ZtGEl437TeS1qkfI" alt="image" width="320" height="220">
+
+#### ✅ Melyik teszteseteket érdemes automatizálni és melyiket nem?
+- ### Érdemes:
+  - Gyakran ismétlődő tesztek
+  - Nagy adatmennyiséggel dolgozó tesztek
+  - Időigényes vagy Bonyolult tesztek
+  - Stabil funkcionalitást lefedő tesztek
+  - Smoke tesztek (Kritikus üzleti folyamatok és alapvető funkciók)
+- ### Nem Érdemes:
+  - Ritkán vagy Egyszer futatott tesztek
+  - Gyakran változó tesztek
+  - Szubjektív tesztek (Pl. Vizuális élény, felhasználói élmény)
+  - Felderítő tesztek
+  
+#### ✅ Írj le egy jó automatizált tesztet!
+
+
+#### ✅ Mi a Selenium, Selenium IDE és Selenium WebDriver?
+
+#### ✅ Hogyan lehet azonosítani a webes elemeket?
+
+#### ✅ Hogyan lehet várni az elemekre, és mi lehet a probléma? Gyűjtsd össze a lehetséges hibákat és okokat!
+
+#### ✅ Hasonlítsd össze a POM és a Keyword Driven Testing megközelítéseket!
+
+#### ✅ Mi a különbség a TDD és BDD között?
+
+#### ✅ Mi az API tesztelés és miért hasznos?
+
+#### ✅ Mi az adatvezérelt tesztelés és miért hasznos?
