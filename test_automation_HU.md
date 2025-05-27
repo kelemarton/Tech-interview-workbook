@@ -91,18 +91,39 @@
   - Felderítő tesztek
   
 #### ✅ Írj le egy jó automatizált tesztet!
-
+### -|-
 
 #### ✅ Mi a Selenium, Selenium IDE és Selenium WebDriver?
+- A Selenium egy népszerű, nyílt forráskódú library, amit elsősorban webalkalmazások automatizált tesztelésére használnak.
+- A Selenium IDE egy böngészőbe épülő eszköz, amivel egyszerűen lehet teszteket rögzíteni és visszajátszani. Főleg ismétlődő tesztek automatizálására használt.
+- A Selenium WebDriver egy aPI, ami lehetővé teszi, hogy különböző programozási nyelvekben írjunk tesztszkripteket, amik közvetlenűl vezérlik a böngészőt.
 
 #### ✅ Hogyan lehet azonosítani a webes elemeket?
+### Meg kell mondani a szkriptnek, hogy melyik gombra kattintson, vagy hova írjon. Ezt lehet ID, név, CSS class, vagy akár a link szövege alapján. Az XPath egy összetettebb, de mindent megtaláló módszer.
 
 #### ✅ Hogyan lehet várni az elemekre, és mi lehet a probléma? Gyűjtsd össze a lehetséges hibákat és okokat!
+### A weboldal elemei nem mindig egyből töltődnek be vagy nem interaktívak. A Selenium library ezekre a problémákra több várakozási és kezelési mechanizmust biztosít.
 
 #### ✅ Hasonlítsd össze a POM és a Keyword Driven Testing megközelítéseket!
+### Mindkettő célja az automatizált scriptek karbantartása, de más szempontból közelítik meg:
+- POM: Itt minden weboldalhoz egy külön osztály tartozik, ami tartalmazza az elemekhez tartozó adatokat.
+- KDT: A teszteseteket kulcsszavak sorozataként definiálják. Ezek mögött egy függvény áll, ami az adott műveletet végrehajtja.
 
 #### ✅ Mi a különbség a TDD és BDD között?
+### Mindkettő olyan fejlesztési gyakorlat, ahol a tesztírás megelőzi a kódírást.
+- TDD (Tesztvezérelt fejlesztés): Célja a robosztus, jól tesztelt kód.
+- BDD (Viselkedésvezérelt fejlesztés): Célja a szoftver az üzleti elvárásoknak megfelelően viselkedjen.
 
 #### ✅ Mi az API tesztelés és miért hasznos?
+### Az API tesztelés során az alkalmazás API végpontjait teszteljük közvetlenül, így az alkalmazás különböző komponensei közötti kommunikációt és adatcserét ellenőrizzük. Előnyei:
+- Korai hibafelismerés
+- Gyorsabb és hatékonyabb
+- Stabilabb és könyebben karbantartható
+- Lehetővé teszi a háttérrendszerek tesztelését
+- Szélesebb körű lefedettség
 
 #### ✅ Mi az adatvezérelt tesztelés és miért hasznos?
+### Az adatvezérelt tesztelés egy automatizálási stratégia, ahol a tesztszkript végrehajtási logikája elválik a tesztadatoktól (bemenetek és elvárt kimenetek). Előnyei:
+- Növeli a tesztlefedettséget
+- Könnyíti a tesztadatok karbantartását
+- Csökkenti a redundáns szkriptek számát
