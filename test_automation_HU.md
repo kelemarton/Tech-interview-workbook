@@ -127,3 +127,38 @@
 - Növeli a tesztlefedettséget
 - Könnyíti a tesztadatok karbantartását
 - Csökkenti a redundáns szkriptek számát
+
+#### ✅ Mik a kihívások és ajánlott eljárások a dinamikusan betöltött webes elemekkel?
+- Kihívások: Időzítési problémák (elemek nem jelennek meg azonnal), nehézkes elem azonosítás (változó ID-k), aszinkron műveletek kezelése.
+- Ajánlott eljárások: Explicit várakozások használata (várás konkrét feltételre), stabil lokátor stratégiák (pl. egyedi adat-attribútumok), Page Object Model (POM) alkalmazása a karbantarthatóságért.
+
+#### ✅ Mik a mobil tesztautomatizálás kihívásai?
+- Különböző operációs rendszerek
+- Eltérő képernyőméretek
+- Gesztusvezérlés automatizálása
+- Változó hálózati körülmények kezelése
+
+## Haladó témák
+<img src="https://www.softwaretestinghelp.com/wp-content/qa/uploads/2020/05/DevOps-in-a-Selenium-Testing.png" alt="image" width="320" height="220">
+
+#### ✅ Mi a különbség a CI és CD között?
+- CI (Folyamatos Integráció): A kódváltotatás gyakori, cél a gyors hibafelismerés.
+- CD (Folyamatos Telepítés): Teljesen automatizálja a kiadási folyamatot, emberi beavatkozás nélkül.
+
+#### ✅ Írj le egy Continuous Delivery folyamatot!
+### -|-
+
+#### ✅ Hasonlítsd össze két népszerű CI rendszert, ezek közül az egyik legyen a Jenkins!
+- Jenkins: 
+  - Rugalmas
+  - Rengeteg pluginnal rendelkezik
+  - Külön telepítést igényel
+  - Konfigurálható UI
+  - Ingyenes
+- GitLab:
+  - Integráció a GitLab platformba (verziókezelés, hibakezelés, stb.)
+  - Sok beépített funkció
+  - Ingyenes és Fizetős verzió
+
+#### ✅ Mi a Docker és miért hasznos?
+### Egy konténerizációs platform, amely lehetővé teszi alkalmazások és függőségeik "csomagolását" könnyű, hordozható konténerekbe. Biztosítja, hogy az alkalmazás ugyanúgy fusson bármilyen környezetben, felgyorsítja a fejlesztési és telepítési ciklusokat, biztosítja az alkalmazások izolációját és hatékony erőforrás-kihasználást tesz lehetővé.
